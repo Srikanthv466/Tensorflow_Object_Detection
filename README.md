@@ -39,3 +39,15 @@ Open inferency.ipynb and run all the cells one by one.
 
 ## Model Training
 
+Convert COCO annotations into Pascal VOC format, and we should build TFRecords from the Pascal VOC annotations.
+
+Create label_map.pbtxt
+
+Make necessary changes in the pipeline.config files.
+
+Run the below command in the anaconda prompt
+
+```bash
+python model_main_tf2.py --model_dir=path_to_model_outputs --pipeline_config_path=path_to_pipeline.config
+```
+
