@@ -1,0 +1,37 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>image_000001870.jpg</filename>
+	<path>/my-project-name/image_000001870.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>734</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>404</xmin>
+			<ymin>547</ymin>
+			<xmax>484</xmax>
+			<ymax>676</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>594</ymin>
+			<xmax>683</xmax>
+			<ymax>905</ymax>
+		</bndbox>
+	</object>
+</annotation>
